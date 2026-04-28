@@ -1,73 +1,26 @@
-# React + TypeScript + Vite
+# lumis-landing
+Lumis Landing is a premium AI-design studio landing page built with React 19, TypeScript, and Tailwind v4. It features fluid Framer Motion animations, a custom cursor glow, and modular components like Hero, Showcase, and Pricing. Designed for visual excellence, this project is fully responsive and optimized for high-performance engagement.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project, Lumis Landing, is a premium, high-performance landing page for a fictional AI-powered design studio called "Lumis." It is built using modern web technologies with a heavy emphasis on visual aesthetics, smooth animations, and a component-based architecture.
 
-Currently, two official plugins are available:
+**🚀 Tech Stack**
+**Framework**: React 19 with TypeScript
+**Build Tool**: Vite 8 for fast development and bundling.
+**Styling**: Tailwind CSS v4 for utility-first, responsive design.
+**Animations**: Framer Motion for fluid transitions and micro-interactions.
+**Icons**: Lucide React for consistent, scalable vector icons. <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🏗️ Project Structure
+The application is modularized into several key components found in src/components/:
+**Hero**: The high-impact introductory section designed to grab attention.<br>
+**Features** & Showcase: Sections that highlight the studio's core capabilities and visual portfolio.<br>
+**HowItWorks**: A procedural guide explaining the studio's workflow.<br>
+**Pricing**: A clear, tiered breakdown of service costs.<br>
+**Testimonials**: Social proof from clients to build trust.<br>
+**Navbar & Footer**: Global navigation and supplemental links.<br>
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+✨ Key Features
+**Responsive Design**: Fully optimized for mobile, tablet, and desktop views.<br>
+**Interactive UX**: Includes a custom Cursor Glow effect (visible on desktop) that follows the user's mouse for a modern, "glassmorphism" feel.<br>
+**Modern Aesthetics**: Uses a curated dark-themed color palette with subtle gradients and high-quality typography.<br>
+The project is currently set up as a single-page application (SPA) focused on converting visitors through strategic Call-to-Action (CTA) sections.<br>
