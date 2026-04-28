@@ -8,19 +8,19 @@ This project, Lumis Landing, is a premium, high-performance landing page for a f
 **Build Tool**: Vite 8 for fast development and bundling.
 **Styling**: Tailwind CSS v4 for utility-first, responsive design.
 **Animations**: Framer Motion for fluid transitions and micro-interactions.
-**Icons**: Lucide React for consistent, scalable vector icons.
+**Icons**: Lucide React for consistent, scalable vector icons. <br>
+
 🏗️ Project Structure
 The application is modularized into several key components found in src/components/:
-
-**Hero**: The high-impact introductory section designed to grab attention.
-**Features** & Showcase: Sections that highlight the studio's core capabilities and visual portfolio.
-**HowItWorks**: A procedural guide explaining the studio's workflow.
-**Pricing**: A clear, tiered breakdown of service costs.
-**Testimonials**: Social proof from clients to build trust.
-**Navbar & Footer**: Global navigation and supplemental links.
+**Hero**: The high-impact introductory section designed to grab attention.<br>
+**Features** & Showcase: Sections that highlight the studio's core capabilities and visual portfolio.<br>
+**HowItWorks**: A procedural guide explaining the studio's workflow.<br>
+**Pricing**: A clear, tiered breakdown of service costs.<br>
+**Testimonials**: Social proof from clients to build trust.<br>
+**Navbar & Footer**: Global navigation and supplemental links.<br>
 
 ✨ Key Features
-**Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
-**Interactive UX**: Includes a custom Cursor Glow effect (visible on desktop) that follows the user's mouse for a modern, "glassmorphism" feel.
-**Modern Aesthetics**: Uses a curated dark-themed color palette with subtle gradients and high-quality typography.
-The project is currently set up as a single-page application (SPA) focused on converting visitors through strategic Call-to-Action (CTA) sections.
+**Responsive Design**: Fully optimized for mobile, tablet, and desktop views.<br>
+**Interactive UX**: Includes a custom Cursor Glow effect (visible on desktop) that follows the user's mouse for a modern, "glassmorphism" feel.<br>
+**Modern Aesthetics**: Uses a curated dark-themed color palette with subtle gradients and high-quality typography.<br>
+The project is currently set up as a single-page application (SPA) focused on converting visitors through strategic Call-to-Action (CTA) sections.<br>
