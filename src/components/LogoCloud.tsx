@@ -1,14 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-const LOGOS = [
-  { name: 'Vercel', svg: 'M20 2L4 30h32L20 2z' },
-  { name: 'Stripe', svg: 'M12 20c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8-8-3.6-8-8z' },
-  { name: 'Linear', svg: 'M4 4h16v16H4z' },
-  { name: 'Figma', svg: 'M12 2a6 6 0 0 0 0 12 6 6 0 0 0 0 12 6 6 0 0 0 6-6v-6a6 6 0 0 0 6-6 6 6 0 0 0-6-6h-6z' },
-  { name: 'Notion', svg: 'M6 6h20v20H6z' },
-  { name: 'Loom', svg: 'M16 4a12 12 0 1 0 0 24A12 12 0 0 0 16 4z' },
-]
 
 const COMPANIES = [
   'Vercel',
